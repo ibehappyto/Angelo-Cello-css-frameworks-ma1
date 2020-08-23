@@ -7,14 +7,18 @@ body {
     height: 100%;
 }
 
+.navcontainer {
+    max-width: 1280px;
+}
+
 .main {
-    max-width: 1200px;
+    max-width: 100%;
     padding: 0;
     background-color: #E5E5E5;
 }
 
 .grid {
-    width: 100%s;
+    max-width: 1280px;
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
@@ -22,7 +26,7 @@ body {
     justify-content: space-evenly;
 
     &__item {
-        margin: 15px;
+        margin: 10px;
         border-radius: 5%;
         width: 264px;
         height: 263px;
@@ -39,7 +43,7 @@ body {
 }
 
 .footer {
-    max-width: 1200px;
+    max-width: 1280px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -58,3 +62,6 @@ body {
         flex-direction: column;
     }
 }
+
+
+

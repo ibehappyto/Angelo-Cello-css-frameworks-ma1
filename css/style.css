@@ -9285,14 +9285,18 @@ body {
   height: 100%;
 }
 
+.navcontainer {
+  max-width: 1280px;
+}
+
 .main {
-  max-width: 1200px;
+  max-width: 100%;
   padding: 0;
   background-color: #E5E5E5;
 }
 
 .grid {
-  width: 100%s;
+  max-width: 1280px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -9306,7 +9310,7 @@ body {
 }
 
 .grid__item {
-  margin: 15px;
+  margin: 10px;
   border-radius: 5%;
   width: 264px;
   height: 263px;
@@ -9322,7 +9326,7 @@ body {
 }
 
 .footer {
-  max-width: 1200px;
+  max-width: 1280px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
