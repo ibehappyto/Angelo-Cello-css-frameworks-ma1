@@ -49,7 +49,11 @@ body {
     justify-content: space-between;
 }
 
-@media screen and (max-width: 515px) {
+.mail, .copywright {
+    margin: 1em;
+}
+
+@media screen and (max-width: 640px) {
     .grid {    
         &__item {
         width: 357px;
