@@ -7,6 +7,10 @@ body {
     height: 100%;
 }
 
+.navbar {
+    padding: 0 15px;
+}
+
 .navcontainer {
     max-width: 1280px;
 }
@@ -50,7 +54,7 @@ body {
 }
 
 .mail, .copywright {
-    margin: 1em;
+    margin: 1em 0;
 }
 
 @media screen and (max-width: 640px) {
