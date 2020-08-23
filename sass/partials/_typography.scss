@@ -1,0 +1,31 @@
+
+.navbar-brand {
+    font-size: 36px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-link {
+    font-size: 15px;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+h1 {
+    font-size: 34px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 43px;
+    margin-bottom: 33px;
+    text-align: center;
+}
+
+.footer {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+@media screen and (min-width: 792px) {
+    .nav-link {
+        font-size: 18px;
+    }
+}
